@@ -1,0 +1,28 @@
+================= SELENIUM FUNCTIONS ================= 
+
+like(post_id) > 0
+comment(post_id, text) > 1
+reply(post_id, comment_id, text) > 20
+
+
+================= DATABASE FUNCTIONS =================
+
+// there are some users in the db with useranme, password
+// target accounts
+// some specific posts
+// comments queue
+// target keywords in a post, hashtag (working on it)
+
+================= FRONTEND / CLI =================
+
+// there is a listener (fuck IDK)
+
+
+================= MISCELLANEOUS =================
+Thread 1:
+	[Listener] & [Script Runner](SELENIUM)
+Thread 2:
+	Telegram Responder
+Thread 3:
+	DB?
+
